@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8">
   </head>
   <body>
+    
+    <div>
+      <a href="index.html">homeページ</a>
+      <a href="moby_dick.html">読書案内『Moby Dick』</a>
+      <a href="tags.html">HTMLタグ一覧</a>
+    </div>
 
     <h1>重要なHTMLタグ一覧</h1>
 
@@ -110,7 +116,106 @@
         </td>
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
       </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>ヘッダー</td>
+        <td>コンテンツの意味上のセクションを作る</td>
+        <td>
+          <code>
+            &lt;header&gt;<br>
+            &lt;h1&gt;Softcover読書案内&lt;/h1&gt;<br>
+            &lt;/header&gt;
+          </code>
+        </td>
+        <td>
+          <header>
+            <h1>Softcover読書案内</h1>
+          </header>
+        </td>
+      </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>分割</td>
+        <td>ブロック要素での区切りを設定する</td>
+        <td>
+          <code>
+            &lt;div&gt;<br>
+            短い読書案内を以下にご紹介いたします。<br>
+            &lt;/div&gt;
+          </code>
+        </td>
+        <td>
+          <div>
+            短い読書案内を以下にご紹介いたします。
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>グループ化</td>
+        <td>インライン要素で文章の一部を装飾するために用いる</td>
+        <td>
+          <code>
+            &lt;span style="color:red;"&gt;赤い文字&lt;/span&gt;
+          </code>
+        </td>
+        <td><span style="color:red;">赤い文字</span></td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>順序付きリスト(Ordered List)</td>
+        <td>ブロック要素で番号付きのリストを表示する</td>
+        <td>
+          <code>
+            &lt;ol&gt;<br>
+            &lt;li&gt;あいうえお&lt;/li&gt;<br>
+            &lt;li&gt;かきくけこ&lt;/li&gt;<br>
+            &lt;/ol&gt;
+          </code>
+        </td>
+        <td>
+          <ol>
+            <li>あいうえお</li>
+            <li>かきくけこ</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>順序なしリスト(Unordered List)</td>
+        <td>ブロック要素で番号無しのリストを表示する</td>
+        <td>
+          <code>
+            &lt;ul&gt;<br>
+            &lt;li&gt;あいうえお&lt;/li&gt;<br>
+            &lt;li&gt;かきくけこ&lt;/li&gt;<br>
+            &lt;/ul&gt;
+          </code>
+        </td>
+        <td>
+          <ul>
+            <li>あいうえお</li>
+            <li>かきくけこ</li>
+          </ul>
+        </td>
+        <tr>
+        <td><code>li</code></td>
+        <td>リスト項目(list item)</td>
+        <td>インライン要素でリストの各項目を定義する</td>
+        <td>
+          <code>
+            &lt;li&gt;あいうえお&lt;/li&gt;
+          </code>
+        </td>
+        <td><li>あいうえお</li></td>
+      </tr>
+      </tr>
+
+
+
+
     </table>
 
   </body>
 </html>
+
